@@ -1,0 +1,14 @@
+{
+  "name": "language-nasl",
+  "version": "0.0.0",
+  "description": "NASL grammar for Atom.  Converted from https://github.com/tenable/sublimetext-nasl",
+  "keywords": [
+    "language",
+    "grammar"
+  ],
+  "repository": "https://github.com/atom/language-nasl",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
