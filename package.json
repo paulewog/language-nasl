@@ -6,7 +6,7 @@
     "language",
     "grammar"
   ],
-  "repository": "https://github.com/atom/language-nasl",
+  "repository": "https://github.com/paulewog/language-nasl",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
