@@ -114,7 +114,7 @@ repository:
             name: "comment.line.number-sign.nasl"
           "2":
             name: "punctuation.definition.comment.nasl"
-        match: "^((#).*$\\n?)"
+        match: "^((#|//).*$\\n?)"
         name: "meta.comment.full-line.nasl"
       }
       {
@@ -123,6 +123,13 @@ repository:
             name: "punctuation.definition.comment.nasl"
         match: "(#).*$\\n?"
         name: "comment.line.number-sign.perl"
+      }
+      {
+        captures:
+          "1":
+            name: "punctuation.definition.comment.nasl"
+        match: "(//).*$\\n?"
+        name: "meta.comment.full-line.nasl"
       }
     ]
 scopeName: "source.nasl"
