@@ -2,6 +2,7 @@ fileTypes: [
   "nasl"
   "inc"
   "tool"
+  "static"
 ]
 foldingStartMarker: "/\\*\\*|\\{\\s*$"
 foldingStopMarker: "\\*\\*/|^\\s*\\}"
