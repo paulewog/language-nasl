@@ -101,13 +101,13 @@ repository:
       }
     ]
   other_keywords:
-    match: "(?<=\\s)(NO|YES|NULL)(?=[\\s\\,])"
+    match: "(?<=\\s)(NO|YES|NULL|LOW|MEDIUM|HIGH|ON|OFF)(?=[\\s\\,])"
     name: "meta.keyword.tnsaudit"
   other_tags:
     captures:
       "1":
         name: "variable.parameter.tnsaudit"
-    match: "^\\s*(audit_policy_subcategory|reg_key|reg_item|reg_ignore_hku_users|wmi_key|wmi_attribute|wmi_request|wmi_namespace|required|aws_action|systemvalue|system|file_extension|file|info|cmd|solution|type|see_also|item|value_type|regex_replace|max_size|only_show|known_good|request)\\s*:\\s*"
+    match: "^\\s*(audit_policy_subcategory|reg_key|reg_item|reg_ignore_hku_users|wmi_key|wmi_attribute|wmi_request|wmi_namespace|required|aws_action|systemvalue|system|file_extension|file|info|cmd|solution|type|see_also|item|value_type|regex_replace|max_size|only_show|known_good|request|severity|owner|mask|mode|group|content|is_substring|service|status|file_required|file_required|string_required|name)\\s*:\\s*"
     name: "meta.tag.tnsaudit"
   reference:
     begin: "^\\s*(reference)\\s*:\\s*(\\\"|\\')"
